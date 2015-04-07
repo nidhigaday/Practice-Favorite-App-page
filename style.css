@@ -1,0 +1,65 @@
+.title {
+	background-color: #33B3B3;
+	text-align: left;
+	font-family: arial;
+	font-size: 70px;
+	height: 90px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	color: white;
+}
+
+.app {
+	display: flex;
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+
+.content {
+	margin-right: 20%;
+	margin-left: 20%
+}
+
+.screenshot {
+	max-width: 366px;
+	width: 40%;
+}
+
+.description {
+	color: #7C8B88;
+	width: 400px;
+	width: 70%;
+	padding-left: 30px;
+	font-size: 20px;
+}
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.validation {
+	display: flex;
+	padding-left: 50px;
+}
+
+p {
+	padding: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+    .screenshot{
+    	width: 100%;
+    }
+
+   .description {
+        width: 100%;
+    }
+
+    .validation {
+        width: 100%;
+    }
+}
